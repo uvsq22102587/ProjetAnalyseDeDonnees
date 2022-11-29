@@ -9,3 +9,5 @@ regrex_pattern = re.compile(pattern = "["
                            "]+", flags = re.UNICODE)
 
 print(regrex_pattern.sub(r"", text))
+
+
